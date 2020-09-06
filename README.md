@@ -1,4 +1,4 @@
-# KEYlogging readme initial
+# Case-sensetive decision
 Hello this is one of my first serious projects.
 Ther is quite a lot of information on the Internet фabout how make a keylogger with Python. 
 But not all of them are case-sensetive.
