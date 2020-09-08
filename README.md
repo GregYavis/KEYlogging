@@ -9,14 +9,14 @@ To create an .exe file using the data you need, you need to run builder.py from 
 Information about the comand line arguments can be obtained by typing in the terminal:
 >python3 builder.py -h
 >> -e EMAIL    email addres
-
+>>
 >> -p PASSWORD email password
-
+>>
 >> -d DELAY    delay with whitch letters should be send
-
+>>
 >> -f FILENAME name of ".py" and ".exe" file with your data from other arguments
  
-*Example comand to create ".exe" file:*
+Example comand to create ".exe" file:
 >python3 builder.py -e example.email@gmail.com -p email_password -d 600 -f result_filename.py
 
 ## Gmail Security Settings
