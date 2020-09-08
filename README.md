@@ -16,7 +16,7 @@ Information about the comand line arguments can be obtained by typing in the ter
 >>
 >> -f FILENAME name of ".py" and ".exe" file with your data from other arguments
  
-Example comand to create ".exe" file:
+Example of comand to create ".exe" file:
 >python3 builder.py -e example.email@gmail.com -p email_password -d 600 -f result_filename.py
 
 ## Gmail Security Settings
